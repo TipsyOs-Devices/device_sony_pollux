@@ -27,3 +27,8 @@ PRODUCT_COPY_FILES += \
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/pollux/pollux-vendor.mk)
+
+# DeviceHandler
+PRODUCT_PACKAGES += \
+    DeviceHandler
+    
